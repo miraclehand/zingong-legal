@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>찐공 — 지원</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.7;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    header .dot {
+      width: 10px; height: 10px;
+      background: #5C6BC0;
+      border-radius: 50%;
+      box-shadow: 0 0 8px rgba(92,107,192,0.6);
+    }
+    header h1 { font-size: 20px; font-weight: 800; color: #111; }
+    header span { font-size: 12px; font-weight: 400; color: #aaa; margin-left: 2px; }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 24px 64px;
+    }
+    h2 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+    .subtitle { font-size: 14px; color: #888; margin-bottom: 40px; }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+    .card p { font-size: 13px; color: #666; line-height: 1.6; }
+    .card a {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 20px;
+      background: #5C6BC0;
+      color: #fff;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .card a:hover { background: #3F51B5; }
+
+    .faq-item { margin-bottom: 20px; }
+    .faq-item dt { font-size: 14px; font-weight: 700; color: #111; margin-bottom: 4px; }
+    .faq-item dd { font-size: 13px; color: #666; line-height: 1.6; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="dot"></div>
+  <h1>찐공<span> by UNEED</span></h1>
+</header>
+
+<div class="container">
+  <h2>지원 센터</h2>
+  <p class="subtitle">찐공 앱 사용 중 문제가 생기셨나요? 아래에서 도움을 받으세요.</p>
+
+  <!-- 이메일 문의 -->
+  <div class="card">
+    <h3>📧 이메일 문의</h3>
+    <p>버그 신고, 기능 제안, 구독/결제 문의는 이메일로 연락 주세요.<br>
+       보통 1~2 영업일 내에 답변드립니다.</p>
+    <!-- TODO: 회사 이메일 확정 후 아래 주소 교체 -->
+    <a href="mailto:support@uneed.kr">support@uneed.kr 로 문의하기</a>
+  </div>
+
+  <!-- 앱 내 문의 -->
+  <div class="card">
+    <h3>💬 앱 내 문의하기</h3>
+    <p>앱을 열고 <strong>MY 탭 → 문의하기</strong>를 통해서도 빠르게 문의하실 수 있습니다.</p>
+  </div>
+
+  <!-- FAQ -->
+  <div class="card">
+    <h3>❓ 자주 묻는 질문</h3>
+    <dl style="margin-top:12px">
+      <div class="faq-item">
+        <dt>구독을 취소하려면 어떻게 하나요?</dt>
+        <dd>iPhone 설정 앱 → Apple ID → 구독 → 찐공 → 구독 취소를 선택하세요. 앱을 삭제해도 구독은 자동 해지되지 않습니다.</dd>
+      </div>
+      <div class="faq-item">
+        <dt>공부 시간이 정확하지 않아요.</dt>
+        <dd>집중도 측정은 AirPods·Apple Watch 센서를 활용하며, 기기 환경에 따라 실제와 다를 수 있습니다. 모든 수치는 참고용입니다.</dd>
+      </div>
+      <div class="faq-item">
+        <dt>회원 탈퇴는 어떻게 하나요?</dt>
+        <dd>앱 MY 탭 → 설정 → 회원 탈퇴를 통해 진행할 수 있습니다. 탈퇴 시 공부 기록 등 데이터가 삭제됩니다.</dd>
+      </div>
+    </dl>
+  </div>
+</div>
+
+</body>
+</html>
